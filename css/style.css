@@ -1,0 +1,36 @@
+/* style.css - minimal custom styles to center card & spacing */
+/* Use Bootstrap for most styling as requested */
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Center the card vertically if viewport is tall */
+main.container {
+  min-height: calc(100vh - 120px);
+}
+
+/* Card style */
+.card {
+  border-radius: 12px;
+}
+
+/* Make form controls a bit larger */
+.form-control, .form-select {
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+}
+
+/* Primary large button spacing */
+.btn-lg {
+  padding: 12px 16px;
+  font-size: 1.05rem;
+}
+
+/* Small responsive tweaks */
+@media (max-width: 576px) {
+  .card {
+    margin: 0 8px;
+  }
+}
